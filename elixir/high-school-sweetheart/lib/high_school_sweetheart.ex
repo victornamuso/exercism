@@ -20,15 +20,15 @@ defmodule HighSchoolSweetheart do
   end
 
   def pair(full_name1, full_name2) do
-    first_initials = initials(full_name1)
-    second_initials = initials(full_name2)
+    fi = initials(full_name1)
+    si = initials(full_name2)
                """
                     ******       ******
                   **      **   **      **
                 **         ** **         **
                **            *            **
                **                         **
-               **     #{first_initials}  +  #{second_initials}     **
+               **     #{fi}  +  #{si}     **
                 **                       **
                   **                   **
                     **               **
