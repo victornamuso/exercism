@@ -14,7 +14,7 @@ defmodule HighScore do
 
   def reset_score(scores, name) do
     scores
-    > add_player(name, @initial_score)
+    |> add_player(name)
   end
 
   def update_score(scores, name, score) do
